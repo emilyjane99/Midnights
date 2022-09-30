@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import Header from './components/Header';
+import Countdown from './components/Countdown'
+import Vinyls from './components/Vinyls'
 import './App.css';
+import Vinyl_Instance from './components/Vinyl_Instance';
+
+
+function Cover(){
+  return (
+    <img src="cover.png" alt="the cover of midnights by taylor swift" width="20%"></img>
+  )
+}
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Countdown />
     </div>
   );
 }

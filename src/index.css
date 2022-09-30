@@ -1,13 +1,71 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, 'Helvetica Neue', BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /*background-color: #AC9EB8;*/
+  background-image: url(../public/whitebackground.png);
+  overflow-y: hidden;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.days{
+  color: #0F1D28;
+  display: inline-block;
+  padding-right: 2%;
+}
+
+.hours{
+  color: #2A3347;
+  display: inline-block;
+  padding-right: 2%;
+}
+
+.minutes{
+  color: #485367;
+  display: inline-block;
+  padding-right: 2%;
+}
+
+.seconds{
+  color: #536385;
+  display: inline-block;
+  padding-right: 2%;
+}
+
+.number{
+  font-size: 13vw;
+  display: inline-block;
+}
+
+.text{
+  font-size: 2vw;
+  display: inline-block;
+}
+
+.moonstone{
+  color: #477185;
+}
+
+.jade{
+  color: #214E52;
+}
+
+.blood{
+  color: #BC7638;
+}
+
+.mahogany{
+  color: #5C2916;
+}
+
+.lavender{
+  color: #7C688D;
 }
